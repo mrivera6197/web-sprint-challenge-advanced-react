@@ -251,3 +251,37 @@ pre {
   color: #0e101c;
   border-bottom: 2px solid !important;
 }
+
+.toggle-container {
+  padding: 0.85rem 1.85rem;
+  background-color: white;
+  border-radius: 20px;
+  width: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4.5rem;
+  border: 1px solid #cf0;
+}
+
+.toggle {
+  background-color: #cf0;
+  box-shadow: 2px 2px 4px #0e101c;
+  border-radius: 50px;
+  height: 15px;
+  position: absolute;
+  left: 90px;
+  transition: 0.2s;
+  width: 15px;
+}
+
+.toggled {
+  left: 120px;
+  background-color: #cf0;
+}
+
+.light-mode {
+  background-color: gray;
+  color: #0e101c;
+}
