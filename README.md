@@ -32,11 +32,35 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 2. Describe the different phases of the component lifecycle.
 
+- mounting, updating, unmounting 
+- mounting => when a component is being created and inserted into the DOM 
+- contructor ()
+- render ()
+- componentDidMount()
+- updating => occurs when there is a change in props or state 
+- shouldComponentUpdate()
+- render()
+- componentDidUpdate()
+- unmounting => when a component is being removed from the DOM 
+- componentWillUnmount()
+
+- render method is the only required method in a class componetnt 
+- pure function => does not modify component state 
+- it looks at this.props & this.state and returns ( react elements, arrays, fragments, portals, strings, numbers, boolean, null)
+
 3. Demonstrate an understanding of class component lifecycle methods.
 
 4. Define stateful logic.
+- in a component, state is data that is subject to change 
+- can change because the data has updated in the database we're fetching from or the user modified it, etc
+- stateful components are keeping track of changing data 
+- stateless components print out information that has been given via props or static data
 
 5. Describe how to test a React component with React Testing Library.
+- react testing library is a set of helpers that let you test React componets without relying on their implementation details 
+- you want to tes whether a component renders correctly for given props 
+- dispatch real DOM events on DOM elements and then assert on the result 
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
